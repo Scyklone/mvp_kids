@@ -1,0 +1,43 @@
+#message {
+  display:none;
+  background: none;
+  color: #000;
+  position: relative;
+  padding: 1px;
+  margin-top: 1px;
+}
+
+#message p {
+  padding: 1px 1px;
+  font-size: 18px;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: lightgreen;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+.matricula {
+  padding-left:50px;
+  
+}
+
+  
+
+  
